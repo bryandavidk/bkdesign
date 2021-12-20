@@ -39,6 +39,7 @@ hr {
 ul {
 	line-height: 1.5rem;
 	list-style-type: none;
+	border: 1px solid red;
 }
 
 a {

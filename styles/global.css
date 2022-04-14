@@ -18,11 +18,21 @@ h1 {
 	line-height: 3.25rem;
 }
 
+.hero {
+	font-family: "Source Sans Pro ExtraLight";
+	font-size: 250%;
+	line-height: 120%;
+}
+
 h2 {
 	margin-top: 2.5rem;
 	margin-bottom: 1.75rem;
 	font-size: 1.75rem;
 	font-weight: 100;
+}
+
+.tagline {
+	font-weight: 500;
 }
 
 p {
@@ -49,4 +59,26 @@ a {
 
 a:hover {
 	text-decoration: underline;
+}
+
+nav {
+	height: 100%;
+	width: 100%;
+	margin-top: 24px;
+}
+
+nav a {
+	padding: 0.5rem;
+	border-radius: 4px;
+}
+
+nav a:nth-child(2){
+		margin-left: 0.5rem;
+		margin-right: 0.5rem;
+}
+
+nav a:hover {
+	background-color: #1A95DB;
+	color: #12222b;
+	text-decoration: none;
 }
